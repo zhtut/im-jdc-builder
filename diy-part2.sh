@@ -18,3 +18,6 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+md5="e2f1b95c60852d84aa4a51a4da61c3d7"
+python3 $GITHUB_WORKSPACE/util/set_kernel.sh . $md5
